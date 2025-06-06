@@ -1,0 +1,21 @@
+header {
+    .top-header {
+       background-color: $primary-color;
+       position: relative;
+
+        .logo {
+            position: absolute;
+            border: 3px solid #ED7702;
+            height: fit-content;
+            width: 180px;
+            border-top: none ;
+            top: 0px;
+            z-index: 99;
+
+        }
+    }
+    .nab-bar{
+        background-color: $secondary-colour ;
+    }
+
+}
