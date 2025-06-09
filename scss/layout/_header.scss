@@ -1,6 +1,6 @@
 header {
     .top-header {
-       background-color: $primary-color;
+       background-color: #088f33;
        position: relative;
 
         .logo {
@@ -15,7 +15,13 @@ header {
         }
     }
     .nab-bar{
-        background-color: $secondary-colour ;
+        background-color: $primary-color ;
+
+        ul{
+            li{
+                padding: 20px;
+            }
+        }
     }
 
 }

@@ -21,8 +21,22 @@ ul {
   list-style: none;
 }
 
+.custom-btn {
+  background-color: #ed7701;
+  padding: 10px 25px;
+  color: white;
+}
+.custom-btn:hover {
+  background-color: #0b732b;
+}
+
+.section-titel {
+  color: #0b732b;
+  margin-bottom: 30px;
+}
+
 header .top-header {
-  background-color: #088F33;
+  background-color: #088f33;
   position: relative;
 }
 header .top-header .logo {
@@ -36,5 +50,109 @@ header .top-header .logo {
   z-index: 99;
 }
 header .nab-bar {
-  background-color: rgb(0, 114, 0);
+  background-color: #0b732b;
+}
+header .nab-bar ul li {
+  padding: 20px;
+}
+
+.banner-section .carousel .carousel-caption {
+  right: 10%;
+  left: initial;
+  bottom: initial;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: end;
+  width: 40%;
+}
+.banner-section .carousel img {
+  height: 80vh;
+}
+
+.about-us {
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 30px;
+}
+.about-us .custom-btn {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 20px;
+}
+.about-us ul li {
+  font-weight: 500;
+}
+.about-us ul li:hover {
+  text-decoration: underline;
+}
+
+.specielties-card {
+  position: relative;
+  overflow: hidden;
+}
+.specielties-card img {
+  transition: 0.4s;
+}
+.specielties-card h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  padding: 10px 30px;
+  background-color: #ed7701;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+}
+.specielties-card:hover img {
+  transform: scale(1.3);
+}
+.specielties-card:hover h3 {
+  background-color: #0b732b;
+}
+
+.best-selling-trip-card {
+  position: relative;
+}
+.best-selling-trip-card .details {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: white;
+  display: grid;
+  grid-template-columns: auto 90px;
+}
+.best-selling-trip-card .details h3 {
+  background-color: #0b732b;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.best-selling-trip-card .details .duration {
+  background-color: #ed7701;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.best-selling-trip-card .price {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #ed7701;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 0px;
+  opacity: 0;
+  color: white;
+}
+.best-selling-trip-card:hover .price {
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */

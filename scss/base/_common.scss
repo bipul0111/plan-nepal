@@ -18,3 +18,17 @@ img {
 ul{
     list-style: none;
 }
+
+.custom-btn{
+    background-color: $secondary-colour;
+    padding: 10px 25px;
+    color: white;
+    &:hover{
+        background-color: $primary-color;
+    }
+}
+
+.section-titel{
+    color: $primary-color;
+    margin-bottom: 30px;
+}
